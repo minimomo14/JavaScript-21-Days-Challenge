@@ -26,10 +26,8 @@
                 radius: random(2, 4),
                 speedX: random(-5, 5),
                 speedY: random(1, 3)
-
             }
         });
-        // console.log(snow);
     };
     // now is time to actually drawing on canvas that we're already been setup by create function call drawingSnowFlakes();
     // drawingSnowFlakes take 2 param (canvasContext, snow)
