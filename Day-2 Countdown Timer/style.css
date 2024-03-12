@@ -1,0 +1,31 @@
+body {
+    background-image: url(./image/night_fireworks.jpg);
+    background-size: cover;
+    color: #ffff;
+
+    height: 100vh;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+.countdown {
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.countdown span {
+    display: block;
+    font-size: 5rem;
+}
