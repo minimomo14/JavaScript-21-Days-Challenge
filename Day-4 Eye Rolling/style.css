@@ -22,7 +22,7 @@ body {
     position: relative;
 }
 
-.face::after{
+.face:after{
     content: "";
     display: block;
     position: absolute;
@@ -41,13 +41,13 @@ body {
     position: relative;
 
     border-radius: 50%;
-    height: 180px;
-    width: 180px;
+    height: 100px;
+    width: 100px;
 
     margin: 20px 20px  0 20px;
 }
 
-.eye::after{
+.eye:after{
     background: #510608;
     border-radius: 50%;
     content: "";
