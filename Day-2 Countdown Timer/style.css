@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 body {
-    background-image: url(./image/night_fireworks.jpg);
+    font-family: "Playfair Display", serif;
+    background-image: url(./image/light.jpg);
     background-size: cover;
     color: #ffff;
 
     height: 100vh;
     font-weight: bold;
     text-align: center;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 
     display: flex;
     align-items: center;
@@ -16,13 +19,15 @@ body {
 }
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
+    font-style: italic;
 }
 
 .countdown {
     display: inline-block;
     font-size: 2rem;
     padding: 1rem;
+    text-transform: uppercase;
 }
 
 .countdown span {
